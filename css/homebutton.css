@@ -1,0 +1,12 @@
+.a,
+#homebutton {
+  text-decoration: none !important;
+  border:0px !important;
+  background: none !important;
+  position:fixed;
+  margin-right:0;
+  right: 1%;
+  margin-top:0;
+  max-width:30%;
+  height auto;
+}
