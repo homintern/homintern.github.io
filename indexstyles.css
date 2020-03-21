@@ -1,0 +1,78 @@
+body {margin: 1em; padding-bottom:200px;}
+h1   {font-family: 'Inknut Antiqua', serif; font-size: calc(12px + 1.5vw);; margin-bottom: 0px;}
+/* p    {font-family: 'Cormorant', serif; font-size: calc(12px + 1.5vw);; max-width: 800px; margin-top: 0px;} */
+h2   {
+  font-family: 'Inknut Antiqua'
+}
+h3   {
+  font-family: 'Cormorant';
+  font-style:normal;
+  font-size: 1.3em;
+  clear: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+a    {color:red;}
+p   {
+  padding:0; margin:0; font-family: 'Cormorant';
+}
+
+
+
+.navsection {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
+
+  max-width: 500px;
+  margin:auto;
+  font-size:1.3em;
+}
+.construction{
+  text-align: center;
+}
+.latest{
+  text-align:center;
+  padding-left: 8.48%;
+  padding-right: 8.48%;
+
+}
+.days{
+    padding-left: 8.48%;
+    padding-right: 8.48%;
+}
+.post{
+  font-size: 1.1em;
+}
+
+#parallax {
+  /* background-image: url("assets/maothick.jpg"); */
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rainbow-text {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  animation: rainbow 8s ease infinite;
+}
+
+@keyframes rainbow {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 25%}
+  100%{background-position:0% 50%}
+}
+
+#updates{
+  font-style: italic;
+  font-weight: normal;
+}

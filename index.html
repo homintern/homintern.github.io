@@ -11,93 +11,14 @@
     <meta property="og:image" content="http://www.homintern.soy/assets/leninthanossquare.png" />
 
     <title>HOMINTERN</title>
-    <head>
 
       <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:800&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Cormorant:500,500i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+      <link rel="stylesheet" href="indexstyles.css">
+      <script src="indexstylescripts.js"></script>
 
-    <style>
-      body {margin: 1em; padding-bottom:200px;}
-      h1   {font-family: 'Inknut Antiqua', serif; font-size: calc(12px + 1.5vw);; margin-bottom: 0px;}
-      /* p    {font-family: 'Cormorant', serif; font-size: calc(12px + 1.5vw);; max-width: 800px; margin-top: 0px;} */
-      h2   {
-        font-family: 'Inknut Antiqua'
-      }
-      h3   {
-        font-family: 'Cormorant';
-        font-style:normal;
-        font-size: 1.3em;
-        clear: left;
-        margin-bottom: 0;
-        padding-bottom: 0;
-      }
-      a    {color:red;}
-      p   {
-        padding:0; margin:0; font-family: 'Cormorant';
-      }
-
-
-
-      .navsection {
-        text-align: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 2rem;
-
-
-        max-width: 500px;
-        margin:auto;
-        font-size:1.3em;
-      }
-      .construction{
-        text-align: center;
-      }
-      .latest{
-        text-align:center;
-        padding-left: 8.48%;
-        padding-right: 8.48%;
-
-      }
-      .days{
-          padding-left: 8.48%;
-          padding-right: 8.48%;
-      }
-      .post{
-        font-size: 1.1em;
-      }
-
-      .parallax {
-        background-image: url("assets/leninthanossfw.png");
-        height: 200px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .rainbow-text {
-        background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
-        text-align: center;
-        background-size: 800% 800%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 24px;
-        animation: rainbow 8s ease infinite;
-      }
-
-      @keyframes rainbow {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 25%}
-        100%{background-position:0% 50%}
-      }
-
-      #updates{
-        font-style: italic;
-        font-weight: normal;
-      }
-    </style>
   </head>
-  <body onload="randomQuotes()">
+  <body onload="randomBackground()">
     <img src="assets/logo.svg" alt="logo" style="display: block; margin-left: auto; margin-right: auto; width: 80%; padding-top:1rem;">
 
     <div class="subtitle">
@@ -128,12 +49,12 @@
       <p>Ethereum: 0x95a7f7A78a639214a52C52B0bcE317C618aCcEa1</p>
       <!-- <p>Monero: 44PDZrtKFzb95UEgoBcKuRdaLKZXpA57sdVbapKg8SdE5EwbDubx8Wv7zqLRKf8R7i4qs77MsoaDAPQiRPrtGbz9RfELqDd</p> -->
       <img src="assets/construction.gif" alt="UNDER CONSTRUCTION" style="display: block; margin-left: auto; margin-right: auto; width: 30%; padding-top:1rem;">
-      <p>credit to for <a href = "https://www.twitter.com/calmness_totem">@calmness_totem</a> for the logo, <a href = "https://www.twitter.com/socializmus">@socializmus</a> for <a href="assets/leninthanos.png">photograph</a> of Vladimir Lenin</p>
+      <p>credit to for <a href = "https://www.twitter.com/calmness_totem">@calmness_totem</a> for the logo, <a href = "https://www.twitter.com/socializmus">@socializmus</a> for <a href="assets/leninthanos.png">photograph</a> of Vladimir Lenin and painting of Helmsman.</p>
     </div>
 
     <div class="latest">
       <h1>Updates:</h1>
-      <div class="parallax"></div>
+      <div id="parallax"></div>
       <h3> WELCOME BACK, <span class="rainbow-text">HOMINTERN</span> READERS!<br><span id="updates">Here again, with more to give for time spent away. Three essays, one letter, more than enough poetry, two prose pieces, the premiere of our advice column (please email your queries <a href="mailto:askahomie@protonmail.com">here</a>)... a little something for everyone. We've also made a <a href="https://gf.me/u/wryykc">gofundme</a> so we can stop mailing IOUs to our essayists, illustrators, and translators. Don't worry, the "My Own Private 9/11" turtlenecks are in the pipeline.</span> </h3>
     </div>
 
