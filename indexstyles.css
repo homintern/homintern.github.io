@@ -51,7 +51,7 @@ p   {
   /* background-image: url("assets/maothick.jpg"); */
   height: 200px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
